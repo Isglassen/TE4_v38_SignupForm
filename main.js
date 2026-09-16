@@ -169,5 +169,5 @@ confirmForm.addEventListener('submit', function (event) {
 	event.preventDefault();
 
 	console.log(JSON.stringify({ ...accountFormResult, ...profileFormResult }, null, 2));
-	confirmMessage.textContent = 'Form submitted successfully!';
+	confirmationMessage.textContent = 'Form submitted successfully!';
 });
