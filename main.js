@@ -17,8 +17,10 @@ function createFormHanler(id, validator) {
 			this.messageBox.textContent = message;
 			if (error) {
 				this.messageBox.classList.add('error');
+				this.input.classList.add('error');
 			} else {
 				this.messageBox.classList.remove('error');
+				this.input.classList.remove('error');
 			}
 		},
 		validate() {
